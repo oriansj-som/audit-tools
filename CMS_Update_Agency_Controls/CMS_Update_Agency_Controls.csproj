@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\common\Match.cs" Link="common\Match.cs" />
+    <Compile Include="..\common\Require.cs" Link="common\Require.cs" />
+    <Compile Include="..\common\SQLiteDatabase.cs" Link="common\SQLiteDatabase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="common\" />
+  </ItemGroup>
+
+</Project>
