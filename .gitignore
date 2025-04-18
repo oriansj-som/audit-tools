@@ -398,3 +398,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# never include test files
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+# and ignore debug option files
+launchSettings.json
