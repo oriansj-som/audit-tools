@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CMS_Controls_Import": {
+      "commandName": "Project",
+      "commandLineArgs": "--database-name audits.db --input-file \"ARC-AMPE.xlsx\" --audit-name \"CMS ARC-AMPE\""
+    }
+  }
+}
